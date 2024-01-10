@@ -1,0 +1,71 @@
+header{
+    background-color: #84250C;
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #84250C;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: left;
+    font-weight: bold;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+nav ul.menu li {
+    display: inline;
+    margin: 20px;    
+}
+
+#presentacion {
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#contenedor{
+    display: grid;
+    margin-right: 20%;
+    margin-left: 20%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 180px 180px 180px;
+    gap: 10px;
+}
+
+#oferta {
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+aside {
+    grid-column: 3;
+    grid-row: 1/3;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
